@@ -1,0 +1,55 @@
+p {
+  font-size: 16;
+  font-weight: bold;
+}
+
+span {
+  font-size: 12 normal;
+  font-weight: normal;
+}
+#img-Top {
+  border-radius: 12px 12px 0px 0px;
+}
+body {
+  background-color: hsl(0, 0%, 59%);
+
+  font-family: Kumbh Sans;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.div2 {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+/* ou bien
+.div2 {
+  margin-top: -50px;
+  text-align: center;
+} */
+
+#profil {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.divItems {
+  display: flex;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}

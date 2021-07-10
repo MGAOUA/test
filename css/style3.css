@@ -1,0 +1,76 @@
+html {
+  font-size: 20px;
+}
+
+span {
+  font-family: "Playfair" "Display";
+  font-size: 1rem;
+  color: #ffffff;
+  background: #f2994a;
+  margin: 2%;
+  padding: 0 0.6 0.2 0.6;
+  border-radius: 10%;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background: #2d9cdb;
+  border-radius: 10%;
+  margin: 4% 2%;
+  padding: 1em 1.2em;
+  border: none;
+}
+
+.card {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  border-radius: 10%;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  padding-left: 1em;
+}
+img {
+  font-family: "Poppins" sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #27ae60;
+  padding: 14px;
+  border-radius: 20%;
+  margin: 5%;
+}
+
+#btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border: none;
+  background: #828282;
+  border-radius: 10%;
+}
+
+#btn:hover {
+  color: #ffffff;
+  background-color: #4f4f4f;
+  transition: all 0.5s ease;
+}
+
+#btn:active {
+  color: #828282;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+#a {
+  color: #4f4f4f #333333 #828282 #ffffff;
+  color: #2d9cdb #e0e0e0 #27ae60;
+}

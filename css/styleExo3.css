@@ -1,0 +1,75 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+}
+p {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+}
+
+#FirstTitle {
+  font-weight: 400;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Box {
+  font-size: 0.5rem;
+  border-radius: 5px;
+  border-top: solid 3px;
+  box-shadow: 0px 5px 15px 5px hsl(229, 6%, 66%);
+  margin: 30px;
+  padding: 20px;
+}
+.Interbox {
+  text-align: left;
+  margin: 2em;
+}
+
+.Icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Supervisor {
+  border-color: hsl(180, 62%, 55%);
+}
+
+.TeamBuilder {
+  border-color: hsl(0, 78%, 62%);
+}
+.Calculator {
+  border-color: hsl(212, 86%, 64%);
+}
+.Karma {
+  border-color: hsl(34, 97%, 64%);
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+}
